@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @JohnyWalkerqu
+- 👀 I’m interested in webdevelopment
+- 🌱 I’m currently learning languages for webdesign and backend communication.
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me
