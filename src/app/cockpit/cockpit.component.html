@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-xs-12">
+        <p>Add new Server or blueprints!</p>
+        <label for="new-server-name">Server Name</label>
+
+        <input 
+            id="new-server-name" 
+            type="text" 
+            class="form-control"
+            [(ngModel)] ="newServerName"
+            #serverNameInput>
+
+        <label for="new-server-description">Server description</label>
+
+        <input 
+            id="new-server-description" 
+            type="text" 
+            class="form-control"
+            [(ngModel)] ="newServerContent">
+
+        <button 
+            type="button" 
+            class="btn btn-primary mt-2" 
+            (click) = "onAddServer()">Add Server
+        </button>
+        <button 
+            type="button" 
+            class="btn btn-primary mt-2" 
+            (click) = "onAddBlueprint()">Add Blueprint
+        </button>
+
+        <!-- local reference method > can bind to every html element
+             here <input ... #serverNameInput> is used -->
+        <button 
+            type="button" 
+            class="btn btn-light mt-2" 
+            (click) = "onPrintElement(serverNameInput)">Print HTML element
+    </button>
+    </div>
+</div>

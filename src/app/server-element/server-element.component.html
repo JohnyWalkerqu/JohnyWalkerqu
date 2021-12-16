@@ -1,0 +1,11 @@
+<div
+  class="card card-default">
+  <div class="card-header" #heading>{{element.name }}</div>
+  <div class="card-body">
+      <!-- ng-content is a directive,
+           it creates a hook to insert all data into here, otherwise it will be lost, 
+           when it is printed into its own html tag <app-server-element> within another component
+           like into the app.component -->
+      <ng-content></ng-content>
+  </div>
+</div>
